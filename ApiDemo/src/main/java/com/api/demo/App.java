@@ -44,7 +44,7 @@ public class App extends Application {
 
         //网络请求模块
         DevRing.configureHttp()//配置retrofit
-                .setBaseUrl("https://api.douban.com/")//设置BaseUrl
+                .setBaseUrl("https://douban.uieee.com/")//设置BaseUrl
                 .setConnectTimeout(15)//设置请求超时时长，单位秒
                 .setIsUseCookie(true)//是否开启Cookie
                 .setIsUseClearableCookieJar(false)//设置Cookie类型(true:持久化Cookie方式ClearableCookieJar,false:非持久化Cookie方式CookieManager)
